@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/home" >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/guidePages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+      
+    <RelativeLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true" 
+        android:gravity="center_horizontal" 
+        android:orientation="horizontal" > 
+   <Button
+      android:id="@+id/check"
+    android:layout_width="wrap_content"
+   android:layout_height="50dp"
+   android:layout_weight = "1"
+   android:textSize="18sp"
+   android:textColor="@android:color/black"
+   android:text="查询"
+   android:padding="7dp"
+   android:textStyle="bold"
+      />
+   <Button
+      android:id="@+id/dayoff"
+    android:layout_width="wrap_content"
+   android:layout_height="50dp"
+   android:layout_weight = "1"
+   android:textSize="18sp"
+   android:textColor="@android:color/black"
+   android:text="请假"
+   android:padding="7dp"
+   android:textStyle="bold"
+      />
+  
+   <Button
+      android:id="@+id/set"
+    android:layout_width="wrap_content"
+   android:layout_height="50dp"
+   android:layout_weight = "1"
+   android:textSize="18sp"
+   android:textColor="@android:color/black"
+   android:text="我"
+   android:padding="7dp"
+   android:textStyle="bold"
+      />
+   </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.attendence_check.controller"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.attendance_check.controller.DemoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.attendance_check.controller.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.TeacherCheckStudent"
+            android:label="@string/title_activity_check" >
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.Day_Off"
+            android:label="@string/title_activity_day__off" >
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.Setting"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.Vacating"
+            android:label="@string/title_activity_vacating" >
+        </activity>
+        <activity
+            android:name="com.attendance_check.controller.ChangePassword" >
+        </activity>
+    </application>
+
+</manifest>

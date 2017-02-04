@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+     
+	<ListView
+	    android:id="@+id/lvotherinfor"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_below="@+id/imageView1"
+	    android:entries="@array/otherinfor" />
+
+	<ImageView
+		android:id="@+id/imageView1"
+		android:layout_width="63dp"
+		android:layout_height="65dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:src="@drawable/cct" />
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@+id/imageView1"
+		android:text="O(∩_∩)O~"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<RatingBar
+		android:id="@+id/ratingBar1"
+		style="?android:attr/ratingBarStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/textView1"
+		android:layout_below="@+id/textView1"
+		android:isIndicator="true" />
+        
+</RelativeLayout>

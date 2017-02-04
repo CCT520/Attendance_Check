@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+           
+                <item
+                    android:id="@+id/fileitem2"
+                    android:title="全部记录"/>
+                <item
+                    android:id="@+id/fileitem3"
+                    android:title="缺勤记录"/>
+                <item
+                    android:id="@+id/fileitem4"
+                    android:title="出勤记录"/>
+              
+</menu>
+
